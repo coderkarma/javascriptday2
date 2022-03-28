@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript Simple form</h1>
+
+   <form id="myForm" method="get">
+    <label for="fname">First name:</label><br>
+    <input 
+        type="text" 
+        id="fname" 
+        name="fname" 
+        placeholder="First Name">
+    <br>
+    <label for="lname">Last name:</label><br>
+    <input 
+        type="text" 
+        id="lname" 
+        name="lname" 
+        placeholder="Last Name">
+    <br>
+    <input type="submit" value="Submit" onsubmit="formSubmit()">
+  </form> 
+
+  <div id="output">
+     
+  </div>
+ <script src="/script.js"></script>
+
+</body>
+</html>
